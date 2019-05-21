@@ -1,19 +1,46 @@
 body {
-    background-image: "imagens/fundo.png";
+    background-image: url("imagens/fundo.png");
 }
 
 table {
-    width: 500px;
+    width: 600px;
     background-color: #D3D5BD;
     padding: 20px 0 20px 10px;
+    align-content: center;
+}
+
+td {
+    padding: 0 5px 0 5px;
 }
 
 #table {
     background-color:  #D3D5BD;
+    font-weight: bold;
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 div {
     width: 900px;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background-color: white;
+    padding: 10px;
+}
+
+#content-img {
+    padding: 10px;
+    background-color: #D3D5BD;
+}
+
+h3 {
+    color: #6a6d50;
 }
 
 p {
@@ -22,4 +49,5 @@ p {
 
 footer {
     text-align: center;
+    padding: 10px;
 }

@@ -20,6 +20,22 @@ body {
     padding: 10px;
 }
 
+/*** Menu ***/
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:visited, a:link {
+    color: white;
+}
+
+a:hover {
+    color: #f7b600;
+    background: white;
+}
+
 /*** Formatação em geral ***/
 
 h1 {

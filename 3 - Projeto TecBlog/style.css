@@ -3,3 +3,13 @@ body {
     font-size: 1em;
     background: #e6e6e6;
 }
+
+#header {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu {
+    padding: 10px;
+}

@@ -20,6 +20,31 @@ body {
     padding: 10px;
 }
 
+#principal {
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#post {
+    width: 660px;
+    background: orange;
+    float: left;
+}
+
+#lateral {
+    width: 240px;
+    background: orange;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
 /*** Menu ***/
 
 a {

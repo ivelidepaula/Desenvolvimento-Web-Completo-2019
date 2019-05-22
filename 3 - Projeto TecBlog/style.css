@@ -21,27 +21,37 @@ body {
 }
 
 #principal {
-    background: white;
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
-#post {
+#post-area {
     width: 660px;
-    background: orange;
     float: left;
 }
 
-#lateral {
+#lateral-area {
     width: 240px;
-    background: orange;
     float: right;
 }
 
 .post {
     padding: 20px;
-    margin: 20px;
+    margin-bottom: 20px;
     background: white;
+}
+
+.lateral-content {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.lateral-post {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
 }
 
 #rodape {
@@ -58,13 +68,22 @@ a {
     padding: 8px 12px;
 }
 
-a:visited, a:link {
+a:link, a:visited {
+	color: #f7b600;
+}e
+
+a:hover {
+	text-decoration: underline;
+}
+
+header a:visited, a:link {
     color: white;
 }
 
-a:hover {
-    color: #f7b600;
-    background: white;
+header a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
 }
 
 /*** Formatação em geral ***/

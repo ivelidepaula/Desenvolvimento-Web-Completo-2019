@@ -17,7 +17,7 @@ This repository contains my work for the Complete Web Development course by Jorg
  - MVC 
  - APIs 
  - IONIC 
- - S
+ - Sass
  - WordPress
 
 ## Projects:

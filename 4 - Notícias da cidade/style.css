@@ -26,3 +26,31 @@ body {
     background: url(imagens/logo.png) no-repeat center;
     text-indent: -3000px;
 }
+
+/* Nav bar */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {/*Para ul que estejam dentro do topo*/
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul .primeiro a {
+    font-size: 0.9erm;
+    display: block;
+    padding: 0.5em 1.5em;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}

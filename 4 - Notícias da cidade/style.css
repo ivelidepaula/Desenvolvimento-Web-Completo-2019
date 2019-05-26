@@ -165,6 +165,20 @@ label {
 	cursor: pointer;
 }
 
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
 /* Rodapé */
 #container-rodape {
 	background: #294c71;

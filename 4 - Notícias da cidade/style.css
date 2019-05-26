@@ -144,6 +144,10 @@ h3 {
 	color: #fff;
 }
 
+.entrevista h3 {
+	background: #de003e;
+}
+
 .caixa-conteudo {
 	background: #fff;
 	padding: 5px;

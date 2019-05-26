@@ -90,7 +90,7 @@ body.home #navegacao a#fotos {
 
 }
 
-#tres-colunas #primario {
+#primario {
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 195px;
@@ -99,9 +99,11 @@ body.home #navegacao a#fotos {
 
 #duas-colunas #primario {
 	width: 555px;
-	float: left;
-	margin: 0 0 20px 195px;
-	background: blue;
+}
+
+#uma-coluna #primario {
+	width: 750px;
+	margin: 0 0 20px 0;
 }
 
 #secundario {
@@ -115,9 +117,16 @@ body.home #navegacao a#fotos {
 	width: 180px;
 	float: left;
 	margin: 0 0 20px -750px;
-	background: yellow;
 }
 
+/* Caixa */
+
+.caixa {
+	margin: 10px 0;
+	background: #f3f3f3 url(imagens/fundo-caixa.png);
+}
+
+/* Rodapé */
 #container-rodape {
 	background: #294c71;
 	padding: 20px;

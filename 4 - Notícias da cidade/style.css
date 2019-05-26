@@ -134,6 +134,24 @@ h2 {
 	padding: 5px;
 }
 
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+/* Menus laterais */
+
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
 /* Rodapé */
 #container-rodape {
 	background: #294c71;

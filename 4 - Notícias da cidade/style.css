@@ -152,6 +152,19 @@ h2 {
 	border-bottom: 1px solid #f3f3f3;
 }
 
+#lateral ul a:hover {
+	background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+}
+
+/* Formulários */
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
 /* Rodapé */
 #container-rodape {
 	background: #294c71;

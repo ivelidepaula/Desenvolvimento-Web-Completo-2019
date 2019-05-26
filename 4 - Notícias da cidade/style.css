@@ -177,6 +177,13 @@ input.submit {
 	border: 2px solid #870529;
 }
 
+/* Imagem */
+
+img.imagem-principal {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
 /* Rodapé */
 #container-rodape {
 	background: #294c71;

@@ -107,3 +107,15 @@ body.home #navegacao a#fotos {
 	float: left;
 	background: yellow;
 }
+
+#container-rodape {
+	background: #294c71;
+	padding: 20px;
+	clear: both;
+}
+
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}

@@ -90,8 +90,15 @@ body.home #navegacao a#fotos {
 
 }
 
-#primario {
+#tres-colunas #primario {
 	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+	background: blue;
+}
+
+#duas-colunas #primario {
+	width: 555px;
 	float: left;
 	margin: 0 0 20px 195px;
 	background: blue;

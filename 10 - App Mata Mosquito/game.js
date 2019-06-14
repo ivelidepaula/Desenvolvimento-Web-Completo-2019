@@ -20,6 +20,14 @@ function posicaoRandomica() {
     var posicaoX = Math.floor(Math.random()*largura)-90
     var posicaoY = Math.floor(Math.random()*altura)-90
 
+    if (posicaoX < 50) {
+        posicaoX +=90
+    }
+
+    if (posicaoY < 50) {
+        posicaoY +=90
+    }
+    
     console.log(posicaoX, posicaoY)
 
     //criar elemento html
